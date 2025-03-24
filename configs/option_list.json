@@ -1,0 +1,41 @@
+[
+    {
+        "name": "option1",
+        "next": [
+            {
+                "name": "option1-1",
+                "action": "action1-1"
+            },
+            {
+                "name": "option1-2",
+                "action": "action1-2"
+            }
+        ]
+    },
+    {
+        "name": "option2",
+        "next": [
+            {
+                "name": "option2-1",
+                "next": [
+                    {
+                        "name": "option2-1-1",
+                        "action": "action2-1-1"
+                    },
+                    {
+                        "name": "option2-1-2",
+                        "action": "action2-1-2"
+                    }
+                ]
+            },
+            {
+                "name": "option2-2",
+                "action": "action2-2"
+            }
+        ]
+    },
+    {
+        "name": "option3",
+        "action": "action3-1"
+    }
+]
